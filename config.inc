@@ -1,5 +1,3 @@
-$cfg[‘Servers’][$i][‘host’]          = ‘localhost‘; //
-
-olması gereken;
-
-$cfg[‘Servers’][$i][‘host’]          = ‘127.0.0.1‘; //
+use mysql
+update user set password=PASSWORD("root") where User='root';
+flush privileges;
